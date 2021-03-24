@@ -1,0 +1,50 @@
+.flex {
+    display: flex;
+  }
+  .logo_area {
+    justify-content: center;
+  }
+  .logo {
+    width: 12%;
+    height: 12%;
+  }
+  .difference {
+    margin: 30px;
+    text-align: center;
+  }
+  .inc_exp {
+    justify-content: space-between;
+    height: auto;
+  }
+  .income {
+    width: 50%;
+    border: 2px solid black;
+    text-align: center;
+  }
+  .income_el, .expenses_el {
+    justify-content: space-around;
+    margin: 17px;
+  }
+  .expenses {
+    width: 50%;
+    border: 2px solid black;
+    text-align: center;
+  }
+  .list {
+    display: inline-block;
+    font-weight:bold;
+    margin: 12px;
+  }
+  .inc_exp_list {
+    height: 355px;
+    }
+  .income_display, .expenses_display {
+    width: 50%;
+    border: 2px solid black;
+    padding-left: 8px;
+  }
+  
+  .allIncomes, .allExpenses {
+    position: absolute;
+    bottom: 0;
+  }

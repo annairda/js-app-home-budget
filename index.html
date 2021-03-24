@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Adrianna Grzebielucha">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Project-1-JS</title>
+</head>
+<body>
+
+    <div class="logo_area flex">
+        <img class="logo" src="https://cdn.pixabay.com/photo/2017/10/25/19/46/piggy-bank-2889046_1280.jpg">
+      </div>
+      <div class="difference">
+        <span>Możesz jeszcze wydać: </span>
+        <span id="wallet"></span>
+      </div>
+      <div class="inc_exp flex">
+        <div class="income">
+          <span class="list">Przychody
+          </span>
+          <div class="income_el flex">
+            <input type="text" id="income_name" placeholder="Nazwa przychodu">
+            <input type="number" id="income_value" placeholder="Kwota">
+            <button onClick="addIncoming()">Dodaj</button>
+          </div>
+        </div>
+        <div class="expenses">
+          <span class="list">Wydatki
+          </span> 
+          <div class="expenses_el flex">
+            <input placeholder="Nazwa wydatku" id="expenses_name">
+            <input placeholder="Kwota" type="number" id="expenses_value">
+            <button onClick="addExpense()">Dodaj</button>
+          </div>
+        </div>
+      </div>
+      <div class="inc_exp_list flex">
+        <div class="income_display" id="income_list">
+          <p id="allIncomes" class="allIncomes"></p>
+        </div>
+        <div class="expenses_display" id="expenses_list">
+          <p id="allExpenses" class="allExpenses"></p>
+        </div> 
+      </div>
+    
+      <script src="main.js" async></script>
+</body>
+</html>
+
